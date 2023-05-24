@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+    <title>Filtering</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="first">
+            <div class="filter">
+                <label for="#1">Number of room: 1</label><input class="room" type="checkbox" name="" id="1"><br>
+                <label for="#2">Number of room: 2</label><input class="room" type="checkbox" name="" id="2"><br>
+                <label for="#3">Number of room: 3</label><input class="room" type="checkbox" name="" id="3"><br>
+                <span>Min Price:</span> <br>
+                <span>min</span><input class="min" type="range" step="1" min="20000" max="200000"><span class="min-value"></span>
+                <br><br>
+                <span>Max Price</span><br>
+                <span>max</span><input class="max" type="range" step="2000" min="100000" max="400000"><span class="max-value"></span>
+                <div class="area_filter">
+                    <span>Area:</span>
+                    <input class="min-area" type="range" step="1" min="0" max="300">
+                    <span class="min-area-value"></span>
+                    <br>
+                    <input class="max-area" type="range" step="1" min="0" max="300">
+                    <span class="max-area-value"></span>
+                  </div>
+            </div>
+        </div>
+        <div class="second"></div>
+    </div>
+
+</body>
+<script src="./main.js"></script>
+</html>
